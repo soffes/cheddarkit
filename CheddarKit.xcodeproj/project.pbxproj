@@ -28,7 +28,6 @@
 		B208C81D15BF66AF0080705D /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C61A15BF66AE0080705D /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B208C81E15BF66AF0080705D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C61C15BF66AE0080705D /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B208C84315BF66AF0080705D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
-		B208C84415BF66AF0080705D /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D915BF66AE0080705D /* SDURLCache.m */; };
 		B208C84615BF66AF0080705D /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
 		B208C87A15BF66F90080705D /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85115BF66AF0080705D /* libBully.a */; };
 		B208C89815BF67C40080705D /* CDKRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */; };
@@ -96,8 +95,6 @@
 		B2D8D5E215BF7F1B00A61836 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C61A15BF66AE0080705D /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B2D8D5E515BF7F2000A61836 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7CF15BF66AE0080705D /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2D8D5E615BF7F2000A61836 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
-		B2D8D5E715BF7F2500A61836 /* SDURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7D815BF66AE0080705D /* SDURLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5E815BF7F2500A61836 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D915BF66AE0080705D /* SDURLCache.m */; };
 		B2D8D5E915BF7F2900A61836 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7E615BF66AE0080705D /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2D8D5EA15BF7F2900A61836 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
 		B2D8D5ED15BF7F4800A61836 /* Bully.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85315BF66AF0080705D /* Bully.framework */; };
@@ -196,8 +193,6 @@
 		B208C66D15BF66AE0080705D /* Bully.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Bully.xcodeproj; sourceTree = "<group>"; };
 		B208C7CF15BF66AE0080705D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B208C7D015BF66AE0080705D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		B208C7D815BF66AE0080705D /* SDURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDURLCache.h; sourceTree = "<group>"; };
-		B208C7D915BF66AE0080705D /* SDURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDURLCache.m; sourceTree = "<group>"; };
 		B208C7E615BF66AE0080705D /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
 		B208C7E715BF66AE0080705D /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
 		B208C89615BF67C40080705D /* CDKRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKRemoteManagedObject.h; sourceTree = "<group>"; };
@@ -267,7 +262,6 @@
 				B208C5FE15BF66AE0080705D /* AFIncrementalStore */,
 				B208C66115BF66AE0080705D /* Bully */,
 				B208C7AD15BF66AE0080705D /* Reachability */,
-				B208C7D315BF66AE0080705D /* SDURLCache */,
 				B208C7E015BF66AE0080705D /* SSKeychain */,
 			);
 			name = Vendor;
@@ -354,15 +348,6 @@
 				B208C7D015BF66AE0080705D /* Reachability.m */,
 			);
 			path = Reachability;
-			sourceTree = "<group>";
-		};
-		B208C7D315BF66AE0080705D /* SDURLCache */ = {
-			isa = PBXGroup;
-			children = (
-				B208C7D815BF66AE0080705D /* SDURLCache.h */,
-				B208C7D915BF66AE0080705D /* SDURLCache.m */,
-			);
-			path = SDURLCache;
 			sourceTree = "<group>";
 		};
 		B208C7E015BF66AE0080705D /* SSKeychain */ = {
@@ -494,7 +479,6 @@
 				B2D8D5DF15BF7F1B00A61836 /* AFURLConnectionOperation.h in Headers */,
 				B2D8D5E115BF7F1B00A61836 /* AFXMLRequestOperation.h in Headers */,
 				B2D8D5E515BF7F2000A61836 /* Reachability.h in Headers */,
-				B2D8D5E715BF7F2500A61836 /* SDURLCache.h in Headers */,
 				B2D8D5E915BF7F2900A61836 /* SSKeychain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,7 +610,6 @@
 				B208C81D15BF66AF0080705D /* AFXMLRequestOperation.m in Sources */,
 				B208C81E15BF66AF0080705D /* UIImageView+AFNetworking.m in Sources */,
 				B208C84315BF66AF0080705D /* Reachability.m in Sources */,
-				B208C84415BF66AF0080705D /* SDURLCache.m in Sources */,
 				B208C84615BF66AF0080705D /* SSKeychain.m in Sources */,
 				B208C89815BF67C40080705D /* CDKRemoteManagedObject.m in Sources */,
 				B208C89B15BF68430080705D /* CDKDefines.m in Sources */,
@@ -670,7 +653,6 @@
 				B2D8D5E015BF7F1B00A61836 /* AFURLConnectionOperation.m in Sources */,
 				B2D8D5E215BF7F1B00A61836 /* AFXMLRequestOperation.m in Sources */,
 				B2D8D5E615BF7F2000A61836 /* Reachability.m in Sources */,
-				B2D8D5E815BF7F2500A61836 /* SDURLCache.m in Sources */,
 				B2D8D5EA15BF7F2900A61836 /* SSKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -839,6 +821,7 @@
 				B2D8D5A415BF7EE600A61836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
