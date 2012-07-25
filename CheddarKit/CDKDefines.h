@@ -34,14 +34,6 @@ extern NSString *const kCDKCurrentUserIDKey;
 extern NSString *const kCDKCurrentUsernameKey;
 
 
-#pragma mark - Fonts
-
-extern NSString *const kCDKRegularFontName;
-extern NSString *const kCDKBoldFontName;
-extern NSString *const kCDKBoldItalicFontName;
-extern NSString *const kCDKItalicFontName;
-
-
 #pragma mark - Misc
 
 extern NSString *const kCDKKeychainServiceName;

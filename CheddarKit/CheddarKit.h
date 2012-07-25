@@ -26,7 +26,6 @@
 #if TARGET_OS_IPHONE
 	#import <CheddarKit/Vendor/SSDataKit/SSDataKit.h>
 	#import <CheddarKit/Vendor/AFIncrementalStore/AFNetworking/AFNetworking/AFNetworking.h>
-	#import <CheddarKit/Vendor/SDURLCache/SDURLCache.h>
 	#import <CheddarKit/Vendor/Reachability/Reachability.h>
 #else
 	#import <CheddarKit/SSDataKit.h>

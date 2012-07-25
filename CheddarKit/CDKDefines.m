@@ -27,14 +27,6 @@ NSString *const kCDKCurrentUserIDKey = @"CHCurrentUserID";
 NSString *const kCDKCurrentUsernameKey = @"CHCurrentUsername";
 
 
-#pragma mark - Fonts
-
-NSString *const kCDKRegularFontName = @"Gotham-Book";
-NSString *const kCDKBoldFontName = @"Gotham-Bold";
-NSString *const kCDKBoldItalicFontName = @"Gotham-BoldItalic";
-NSString *const kCDKItalicFontName = @"Gotham-BookItalic";
-
-
 #pragma mark - Misc
 
 NSString *const kCDKKeychainServiceName = @"Cheddar";
