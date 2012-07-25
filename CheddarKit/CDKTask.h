@@ -30,9 +30,6 @@
 - (void)toggleCompleted;
 - (BOOL)hasTag:(CDKTag *)tag;
 
-- (NSAttributedString *)attributedDisplayText;
-- (void)addEntitiesToAttributedString:(NSMutableAttributedString *)attributedString;
-
 @end
 
 
