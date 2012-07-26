@@ -19,7 +19,7 @@
 #endif
 
 // Always use development on the simulator or Mac app (for now)
-#define IN_PRODUCTION !TARGET_IPHONE_SIMULATOR && !TARGET_OS_MAC
+#define CHEDDAR_PRODUCTION_MODE !TARGET_IPHONE_SIMULATOR && !TARGET_OS_MAC
 
 #pragma mark - API
 
