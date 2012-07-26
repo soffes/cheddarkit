@@ -30,6 +30,5 @@
 #else
 	#import <CheddarKit/SSDataKit.h>
 	#import <CheddarKit/AFNetworking.h>
-	#import <CheddarKit/SDURLCache.h>
 	#import <CheddarKit/Reachability.h>
 #endif
