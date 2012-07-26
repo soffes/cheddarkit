@@ -15,6 +15,8 @@
 #import <Bully/Bully.h>
 #import "Reachability.h"
 
+static BOOL __developmentMode = NO;
+
 @interface CDKPushController () <BLYClientDelegate>
 @property (nonatomic, strong, readwrite) BLYClient *client;
 @property (nonatomic, strong, readwrite) BLYChannel *userChannel;
@@ -129,11 +131,16 @@
 }
 
 
++ (void)setDevelopmentModeEnabled:(BOOL)enabled {
+	__developmentMode = enabled;
+}
+
+
 #pragma mark - NSObject
 
 - (id)init {
 	if ((self = [super init])) {
-		_client = [[BLYClient alloc] initWithAppKey:kCDKPusherAPIKey delegate:self];
+		_client = [[BLYClient alloc] initWithAppKey:(__developmentMode ? kCDKDevelopmentPusherAPIKey : kCDKPusherAPIKey) delegate:self];
 
 		self.userID = [CDKUser currentUser].remoteID.description;
 

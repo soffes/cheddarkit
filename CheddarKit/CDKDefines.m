@@ -10,15 +10,13 @@
 
 #pragma mark - API
 
-#if IN_PRODUCTION
 NSString *const kCDKAPIScheme = @"https";
 NSString *const kCDKAPIHost = @"api.cheddarapp.com";
 NSString *const kCDKPusherAPIKey = @"675f10a650f18b4eb0a8";
-#else
-NSString *const kCDKAPIScheme = @"http";
-NSString *const kCDKAPIHost = @"localhost:5000";
-NSString *const kCDKPusherAPIKey = @"a02cb793e9d5fb919023";
-#endif
+
+NSString *const kCDKDevelopmentAPIScheme = @"http";
+NSString *const kCDKDevelopmentAPIHost = @"localhost:5000";
+NSString *const kCDKDevelopmentPusherAPIKey = @"a02cb793e9d5fb919023";
 
 
 #pragma mark - User Defaults Keys

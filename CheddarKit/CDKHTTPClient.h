@@ -19,6 +19,8 @@ typedef void (^CDKHTTPClientFailure)(AFJSONRequestOperation *operation, NSError 
 @interface CDKHTTPClient : AFHTTPClient
 
 + (CDKHTTPClient *)sharedClient;
++ (void)setDevelopmentModeEnabled:(BOOL)enabled;
++ (NSString *)apiVersion;
 - (void)setClientID:(NSString *)clientID secret:(NSString *)clientSecret;
 
 - (void)changeUser:(CDKUser *)user;

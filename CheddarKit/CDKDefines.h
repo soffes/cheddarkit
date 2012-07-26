@@ -27,6 +27,10 @@ extern NSString *const kCDKAPIScheme;
 extern NSString *const kCDKAPIHost;
 extern NSString *const kCDKPusherAPIKey;
 
+extern NSString *const kCDKDevelopmentAPIScheme;
+extern NSString *const kCDKDevelopmentAPIHost;
+extern NSString *const kCDKDevelopmentPusherAPIKey;
+
 
 #pragma mark - User Defaults Keys
 

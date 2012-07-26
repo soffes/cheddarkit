@@ -13,6 +13,8 @@
 #import "CDKDefines.h"
 #import <Bully/Bully.h>
 
+static BOOL __developmentMode = NO;
+
 @interface CDKHTTPClient ()
 - (void)_userChanged:(NSNotification *)notification;
 @end
@@ -35,10 +37,27 @@
 }
 
 
++ (void)setDevelopmentModeEnabled:(BOOL)enabled {
+	__developmentMode = enabled;
+}
+
+
++ (NSString *)apiVersion {
+	return @"v1";
+}
+
+
 #pragma mark - NSObject
 
 - (id)init {
-	NSURL *base = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@/v1/", kCDKAPIScheme, kCDKAPIHost]];
+	NSURL *base = nil;
+	NSString *version = [[self class] apiVersion];
+	if (__developmentMode) {
+		base = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@/%@/", kCDKDevelopmentAPIScheme, kCDKDevelopmentAPIHost, version]];
+	} else {
+		base = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@/%@/", kCDKAPIScheme, kCDKAPIHost, version]];
+	}
+	
 	if ((self = [super initWithBaseURL:base])) {
 		// Use JSON
 		[self registerHTTPOperationClass:[AFJSONRequestOperation class]];

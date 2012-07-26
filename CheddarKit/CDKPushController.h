@@ -17,5 +17,6 @@
 @property (nonatomic, strong, readonly) BLYChannel *userChannel;
 
 + (CDKPushController *)sharedController;
++ (void)setDevelopmentModeEnabled:(BOOL)enabled;
 
 @end
