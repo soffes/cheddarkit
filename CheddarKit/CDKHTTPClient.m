@@ -114,7 +114,7 @@ static BOOL __developmentMode = NO;
 							nil];
 	
 	[self setAuthorizationHeaderWithUsername:_clientID password:_clientSecret];
-	[self postPath:@"oauth/access_token" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+	[self postPath:@"/oauth/token" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
 		__weak NSManagedObjectContext *context = [CDKUser mainContext];
 		[context performBlockAndWait:^{
 			NSDictionary *dictionary = (NSDictionary *)responseObject;
@@ -126,6 +126,37 @@ static BOOL __developmentMode = NO;
 			[CDKUser setCurrentUser:user];
 		}];
 
+		if (success) {
+			success((AFJSONRequestOperation *)operation, responseObject);
+		}
+	} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+		if (failure) {
+			failure((AFJSONRequestOperation *)operation, error);
+		}
+	}];
+	[self clearAuthorizationHeader];
+}
+
+
+- (void)signInWithAuthorizationCode:(NSString *)code success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure {
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
+							code, @"code",
+							@"authorization_code", @"grant_type",
+							nil];
+	
+	[self setAuthorizationHeaderWithUsername:_clientID password:_clientSecret];
+	[self postPath:@"/oauth/token" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+		__weak NSManagedObjectContext *context = [CDKUser mainContext];
+		[context performBlockAndWait:^{
+			NSDictionary *dictionary = (NSDictionary *)responseObject;
+			CDKUser *user = [CDKUser objectWithDictionary:[dictionary objectForKey:@"user"]];
+			user.accessToken = [dictionary objectForKey:@"access_token"];
+			[user save];
+			
+			[self changeUser:user];
+			[CDKUser setCurrentUser:user];
+		}];
+		
 		if (success) {
 			success((AFJSONRequestOperation *)operation, responseObject);
 		}

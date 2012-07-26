@@ -27,6 +27,7 @@ typedef void (^CDKHTTPClientFailure)(AFJSONRequestOperation *operation, NSError 
 
 // User
 - (void)signInWithLogin:(NSString *)login password:(NSString *)password success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
+- (void)signInWithAuthorizationCode:(NSString *)code success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
 - (void)signUpWithUsername:(NSString *)username email:(NSString *)email password:(NSString *)password success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
 - (void)updateCurrentUserWithSuccess:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
 
