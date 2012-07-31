@@ -29,6 +29,7 @@
 - (BOOL)isCompleted;
 - (void)toggleCompleted;
 - (BOOL)hasTag:(CDKTag *)tag;
+- (BOOL)hasTags:(NSArray *)tags;
 
 @end
 

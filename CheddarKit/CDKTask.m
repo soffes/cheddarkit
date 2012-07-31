@@ -137,7 +137,26 @@
 
 
 - (BOOL)hasTag:(CDKTag *)tag {
-	return [self.tags containsObject:tag];
+	// There has to be a better way to write this
+	NSArray *names = [self.tags valueForKey:@"name"];
+	NSString *tagName = [tag.name lowercaseString];
+	for (NSString *name in names) {
+		if ([[name lowercaseString] isEqualToString:tagName]) {
+			return YES;
+		}
+	}
+	return NO;
+}
+
+
+- (BOOL)hasTags:(NSArray *)tags {
+	// There has to be a better way to write this
+	for (CDKTag *tag in tags) {
+		if (![self hasTag:tag]) {
+			return NO;
+		}
+	}
+	return YES;
 }
 
 @end
