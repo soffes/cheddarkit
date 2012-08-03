@@ -29,8 +29,6 @@
 	#import <CheddarKit/Vendor/Reachability/Reachability.h>
 #else
 	// SSDataKit
-	#import <Foundation/Foundation.h>
-	#import <CoreData/CoreData.h>
 	#import <CheddarKit/SSManagedObject.h>
 	#import <CheddarKit/SSRemoteManagedObject.h>
 	#import <CheddarKit/NSManagedObjectContext+SSDataKitAdditions.h>
