@@ -28,7 +28,13 @@
 	#import <CheddarKit/Vendor/AFIncrementalStore/AFNetworking/AFNetworking/AFNetworking.h>
 	#import <CheddarKit/Vendor/Reachability/Reachability.h>
 #else
-	#import <CheddarKit/SSDataKit.h>
+	// SSDataKit
+	#import <Foundation/Foundation.h>
+	#import <CoreData/CoreData.h>
+	#import <CheddarKit/SSManagedObject.h>
+	#import <CheddarKit/SSRemoteManagedObject.h>
+	#import <CheddarKit/NSManagedObjectContext+SSDataKitAdditions.h>
+
 	#import <CheddarKit/AFNetworking.h>
 	#import <CheddarKit/Reachability.h>
 #endif
