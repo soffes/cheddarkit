@@ -32,5 +32,6 @@ NSString *const kCDKKeychainServiceName = @"Cheddar";
 
 #pragma mark - Notifications
 
-NSString *const kCDKListDidUpdateNotificationName = @"CHListDidUpdateNotification";
-NSString *const kCDKPlusDidChangeNotificationName = @"CHPlusDidChangeNotification";
+NSString *const kCDKListDidUpdateNotificationName = @"CDKListDidUpdateNotification";
+NSString *const kCDKPlusDidChangeNotificationName = @"CDKPlusDidChangeNotification";
+NSString *const kCDKUserUpdatedNotificationName = @"CDKUserUpdatedNotificationName";

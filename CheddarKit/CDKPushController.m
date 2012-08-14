@@ -115,6 +115,7 @@ static BOOL __developmentMode = NO;
 	[self.userChannel bindToEvent:@"user-update" block:^(id message) {
 		CDKUser *user = [CDKUser objectWithDictionary:message];
 		[user save];
+		[[NSNotificationCenter defaultCenter] postNotificationName:kCDKUserUpdatedNotificationName object:user userInfo:nil];
 	}];
 }
 

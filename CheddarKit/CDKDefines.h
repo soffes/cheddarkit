@@ -48,5 +48,6 @@ extern NSString *const kCDKKeychainServiceName;
 
 extern NSString *const kCDKListDidUpdateNotificationName;
 extern NSString *const kCDKPlusDidChangeNotificationName;
+extern NSString *const kCDKUserUpdatedNotificationName;
 
 #endif
