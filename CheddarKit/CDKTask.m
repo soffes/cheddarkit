@@ -25,6 +25,27 @@
 @dynamic list;
 @dynamic tags;
 
+- (void)setCompleted:(BOOL)completed {
+	if (completed == [self isCompleted]) {
+		return;
+	}
+
+	if (completed) {
+		self.completedAt = [NSDate date];
+	} else {
+		self.completedAt = nil;
+	}
+
+	[self save];
+	[self update];
+}
+
+
+- (BOOL)isCompleted {
+	return self.completedAt != nil;
+}
+
+
 #pragma mark - SSManagedObject
 
 + (NSString *)entityName {
@@ -118,12 +139,6 @@
 
 
 #pragma mark - Task
-
-
-- (BOOL)isCompleted {
-	return self.completedAt != nil;
-}
-
 
 - (void)toggleCompleted {
 	if (self.isCompleted) {

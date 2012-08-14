@@ -25,8 +25,8 @@
 @property (nonatomic, strong) CDKUser *user;
 @property (nonatomic, strong) CDKList *list;
 @property (nonatomic, strong) NSSet *tags;
+@property (nonatomic, assign, getter = isCompleted) BOOL completed;
 
-- (BOOL)isCompleted;
 - (void)toggleCompleted;
 - (BOOL)hasTag:(CDKTag *)tag;
 - (BOOL)hasTags:(NSArray *)tags;
