@@ -58,20 +58,19 @@ static CDKUser *__currentUser = nil;
 	if (__currentUser) {
 		[SSKeychain deletePasswordForService:kCDKKeychainServiceName account:__currentUser.remoteID.description];
 	}
-	
+
+	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+
 	if (!user.remoteID || !user.accessToken) {
 		__currentUser = nil;
-		return;
+		[userDefaults removeObjectForKey:kCDKUserIDKey];
+	} else {
+		[SSKeychain setPassword:user.accessToken forService:kCDKKeychainServiceName account:user.remoteID.description];
+		__currentUser = user;
+		[userDefaults setObject:user.remoteID forKey:kCDKUserIDKey];
 	}
 	
-	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-	[userDefaults setObject:user.remoteID forKey:kCDKUserIDKey];
 	[userDefaults synchronize];
-	
-	[SSKeychain setPassword:user.accessToken forService:kCDKKeychainServiceName account:user.remoteID.description];
-	
-	__currentUser = user;
-	
 	[[NSNotificationCenter defaultCenter] postNotificationName:kCDKCurrentUserChangedNotificationName object:user];
 }
 
