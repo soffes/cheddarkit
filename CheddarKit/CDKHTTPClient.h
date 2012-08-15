@@ -44,5 +44,6 @@ typedef void (^CDKHTTPClientFailure)(AFJSONRequestOperation *operation, NSError 
 - (void)sortTasks:(NSArray *)tasks inList:(CDKList *)list success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
 - (void)archiveAllTasksInList:(CDKList *)list success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
 - (void)archiveCompletedTasksInList:(CDKList *)list success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
+- (void)moveTask:(CDKTask *)task toList:(CDKList *)list success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure;
 
 @end

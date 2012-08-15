@@ -174,4 +174,18 @@
 	return YES;
 }
 
+
+- (void)moveToList:(CDKList *)list {
+	CDKList *oldList = self.list;
+	self.list = list;
+	[self save];
+
+	[[CDKHTTPClient sharedClient] moveTask:self toList:list success:nil failure:^(AFJSONRequestOperation *operation, NSError *error) {
+		dispatch_async(dispatch_get_main_queue(), ^{
+			self.list = oldList;
+			[self save];
+		});
+	}];
+}
+
 @end

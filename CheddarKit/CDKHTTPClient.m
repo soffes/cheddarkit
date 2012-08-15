@@ -455,6 +455,29 @@ static BOOL __developmentMode = NO;
 }
 
 
+- (void)moveTask:(CDKTask *)task toList:(CDKList *)list success:(CDKHTTPClientSuccess)success failure:(CDKHTTPClientFailure)failure {
+	NSString *path = [NSString stringWithFormat:@"tasks/%@/move", task.remoteID];
+	NSDictionary *params = [[NSDictionary alloc] initWithObjectsAndKeys:
+							list.remoteID, @"task[list_id]",
+							nil];
+	[self putPath:path parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+		__weak NSManagedObjectContext *context = [CDKTask mainContext];
+		[context performBlockAndWait:^{
+			[task unpackDictionary:responseObject];
+			[task save];
+		}];
+		
+		if (success) {
+			success((AFJSONRequestOperation *)operation, responseObject);
+		}
+	} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+		if (failure) {
+			failure((AFJSONRequestOperation *)operation, error);
+		}
+	}];
+}
+
+
 #pragma mark - Authentication
 
 - (void)_userChanged:(NSNotification *)notification {

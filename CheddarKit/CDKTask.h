@@ -30,6 +30,7 @@
 - (void)toggleCompleted;
 - (BOOL)hasTag:(CDKTag *)tag;
 - (BOOL)hasTags:(NSArray *)tags;
+- (void)moveToList:(CDKList *)list;
 
 @end
 
