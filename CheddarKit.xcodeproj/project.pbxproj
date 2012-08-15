@@ -97,12 +97,13 @@
 		B2D8D5E615BF7F2000A61836 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
 		B2D8D5E915BF7F2900A61836 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7E615BF66AE0080705D /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2D8D5EA15BF7F2900A61836 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
-		B2D8D5ED15BF7F4800A61836 /* Bully.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85315BF66AF0080705D /* Bully.framework */; };
 		B2D8D60215BF808200A61836 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60115BF808200A61836 /* Security.framework */; };
 		B2D8D60415BF808800A61836 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60315BF808800A61836 /* SystemConfiguration.framework */; };
 		B2D8D60615BF808E00A61836 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60515BF808E00A61836 /* libicucore.dylib */; };
 		B2D8D60815BF809300A61836 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60715BF809300A61836 /* CoreData.framework */; };
 		B2D8D60A15BF809700A61836 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60915BF809700A61836 /* CoreText.framework */; };
+		B2EB6AAD15DB5DC40035AD92 /* libBullyMacLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6AAA15DB5DB30035AD92 /* libBullyMacLibrary.a */; };
+		B2EB6AB915DB61270035AD92 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6AB815DB61270035AD92 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,12 +128,19 @@
 			remoteGlobalIDString = B2587E4A1579E740009D7B44;
 			remoteInfo = Bully;
 		};
-		B2D8D5EB15BF7F3A00A61836 /* PBXContainerItemProxy */ = {
+		B2EB6AA915DB5DB30035AD92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2EB6A8415DB5C960035AD92;
+			remoteInfo = BullyMacLibrary;
+		};
+		B2EB6AAB15DB5DB50035AD92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = B2FB4872158AF9B20067FB00;
-			remoteInfo = BullyMac;
+			remoteGlobalIDString = B2EB6A8315DB5C960035AD92;
+			remoteInfo = BullyMacLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -226,6 +234,7 @@
 		B2D8D60515BF808E00A61836 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libicucore.dylib; sourceTree = DEVELOPER_DIR; };
 		B2D8D60715BF809300A61836 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		B2D8D60915BF809700A61836 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		B2EB6AB815DB61270035AD92 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,12 +251,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EB6AB915DB61270035AD92 /* CFNetwork.framework in Frameworks */,
+				B2EB6AAD15DB5DC40035AD92 /* libBullyMacLibrary.a in Frameworks */,
 				B2D8D60A15BF809700A61836 /* CoreText.framework in Frameworks */,
 				B2D8D60815BF809300A61836 /* CoreData.framework in Frameworks */,
 				B2D8D60615BF808E00A61836 /* libicucore.dylib in Frameworks */,
 				B2D8D60415BF808800A61836 /* SystemConfiguration.framework in Frameworks */,
 				B2D8D60215BF808200A61836 /* Security.framework in Frameworks */,
-				B2D8D5ED15BF7F4800A61836 /* Bully.framework in Frameworks */,
 				B2D8D59215BF7EE600A61836 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +347,7 @@
 			children = (
 				B208C85115BF66AF0080705D /* libBully.a */,
 				B208C85315BF66AF0080705D /* Bully.framework */,
+				B2EB6AAA15DB5DB30035AD92 /* libBullyMacLibrary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -362,6 +373,7 @@
 		B244407A15BE53DC00D4D4CA = {
 			isa = PBXGroup;
 			children = (
+				B2EB6AB815DB61270035AD92 /* CFNetwork.framework */,
 				B244409A15BE540D00D4D4CA /* CheddarKit */,
 				B208C5FD15BF66AE0080705D /* Vendor */,
 				B244408715BE53DC00D4D4CA /* Frameworks */,
@@ -516,7 +528,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B2D8D5EC15BF7F3A00A61836 /* PBXTargetDependency */,
+				B2EB6AAC15DB5DB50035AD92 /* PBXTargetDependency */,
 			);
 			name = CheddarKitMac;
 			productName = CheddarKitMac;
@@ -570,6 +582,13 @@
 			fileType = wrapper.framework;
 			path = Bully.framework;
 			remoteRef = B208C85215BF66AF0080705D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2EB6AAA15DB5DB30035AD92 /* libBullyMacLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBullyMacLibrary.a;
+			remoteRef = B2EB6AA915DB5DB30035AD92 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -665,10 +684,10 @@
 			name = Bully;
 			targetProxy = B208C87815BF66F10080705D /* PBXContainerItemProxy */;
 		};
-		B2D8D5EC15BF7F3A00A61836 /* PBXTargetDependency */ = {
+		B2EB6AAC15DB5DB50035AD92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BullyMac;
-			targetProxy = B2D8D5EB15BF7F3A00A61836 /* PBXContainerItemProxy */;
+			name = BullyMacLibrary;
+			targetProxy = B2EB6AAB15DB5DB50035AD92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -761,9 +780,15 @@
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CheddarKit/Vendor/Bully\"";
 				INFOPLIST_FILE = "Other Sources/CheddarKitMac-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = CheddarKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -786,8 +811,14 @@
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CheddarKit/Vendor/Bully\"";
 				INFOPLIST_FILE = "Other Sources/CheddarKitMac-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = CheddarKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
