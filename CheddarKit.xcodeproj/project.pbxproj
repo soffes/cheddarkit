@@ -102,8 +102,8 @@
 		B2D8D60615BF808E00A61836 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60515BF808E00A61836 /* libicucore.dylib */; };
 		B2D8D60815BF809300A61836 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60715BF809300A61836 /* CoreData.framework */; };
 		B2D8D60A15BF809700A61836 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60915BF809700A61836 /* CoreText.framework */; };
-		B2EB6AAD15DB5DC40035AD92 /* libBullyMacLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6AAA15DB5DB30035AD92 /* libBullyMacLibrary.a */; };
 		B2EB6AB915DB61270035AD92 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6AB815DB61270035AD92 /* CFNetwork.framework */; };
+		B2EB6BD515DB6B030035AD92 /* libBullyMacLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6BD015DB6A4B0035AD92 /* libBullyMacLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,18 +128,18 @@
 			remoteGlobalIDString = B2587E4A1579E740009D7B44;
 			remoteInfo = Bully;
 		};
-		B2EB6AA915DB5DB30035AD92 /* PBXContainerItemProxy */ = {
+		B2EB6BCF15DB6A4B0035AD92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B2EB6A8415DB5C960035AD92;
+			remoteGlobalIDString = B2EB6BBC15DB69FC0035AD92;
 			remoteInfo = BullyMacLibrary;
 		};
-		B2EB6AAB15DB5DB50035AD92 /* PBXContainerItemProxy */ = {
+		B2EB6BD315DB6AFC0035AD92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = B2EB6A8315DB5C960035AD92;
+			remoteGlobalIDString = B2EB6BBB15DB69FC0035AD92;
 			remoteInfo = BullyMacLibrary;
 		};
 /* End PBXContainerItemProxy section */
@@ -251,8 +251,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EB6BD515DB6B030035AD92 /* libBullyMacLibrary.a in Frameworks */,
 				B2EB6AB915DB61270035AD92 /* CFNetwork.framework in Frameworks */,
-				B2EB6AAD15DB5DC40035AD92 /* libBullyMacLibrary.a in Frameworks */,
 				B2D8D60A15BF809700A61836 /* CoreText.framework in Frameworks */,
 				B2D8D60815BF809300A61836 /* CoreData.framework in Frameworks */,
 				B2D8D60615BF808E00A61836 /* libicucore.dylib in Frameworks */,
@@ -347,7 +347,7 @@
 			children = (
 				B208C85115BF66AF0080705D /* libBully.a */,
 				B208C85315BF66AF0080705D /* Bully.framework */,
-				B2EB6AAA15DB5DB30035AD92 /* libBullyMacLibrary.a */,
+				B2EB6BD015DB6A4B0035AD92 /* libBullyMacLibrary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -373,7 +373,6 @@
 		B244407A15BE53DC00D4D4CA = {
 			isa = PBXGroup;
 			children = (
-				B2EB6AB815DB61270035AD92 /* CFNetwork.framework */,
 				B244409A15BE540D00D4D4CA /* CheddarKit */,
 				B208C5FD15BF66AE0080705D /* Vendor */,
 				B244408715BE53DC00D4D4CA /* Frameworks */,
@@ -393,6 +392,7 @@
 		B244408715BE53DC00D4D4CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2EB6AB815DB61270035AD92 /* CFNetwork.framework */,
 				B2D8D60915BF809700A61836 /* CoreText.framework */,
 				B2D8D60715BF809300A61836 /* CoreData.framework */,
 				B2D8D60515BF808E00A61836 /* libicucore.dylib */,
@@ -528,7 +528,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B2EB6AAC15DB5DB50035AD92 /* PBXTargetDependency */,
+				B2EB6BD415DB6AFC0035AD92 /* PBXTargetDependency */,
 			);
 			name = CheddarKitMac;
 			productName = CheddarKitMac;
@@ -584,11 +584,11 @@
 			remoteRef = B208C85215BF66AF0080705D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B2EB6AAA15DB5DB30035AD92 /* libBullyMacLibrary.a */ = {
+		B2EB6BD015DB6A4B0035AD92 /* libBullyMacLibrary.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libBullyMacLibrary.a;
-			remoteRef = B2EB6AA915DB5DB30035AD92 /* PBXContainerItemProxy */;
+			remoteRef = B2EB6BCF15DB6A4B0035AD92 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -684,10 +684,10 @@
 			name = Bully;
 			targetProxy = B208C87815BF66F10080705D /* PBXContainerItemProxy */;
 		};
-		B2EB6AAC15DB5DB50035AD92 /* PBXTargetDependency */ = {
+		B2EB6BD415DB6AFC0035AD92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BullyMacLibrary;
-			targetProxy = B2EB6AAB15DB5DB50035AD92 /* PBXContainerItemProxy */;
+			targetProxy = B2EB6BD315DB6AFC0035AD92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
