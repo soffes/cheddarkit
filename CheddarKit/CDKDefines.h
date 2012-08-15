@@ -19,7 +19,7 @@
 #endif
 
 // Always use development on the simulator or Mac app (for now)
-#if !TARGET_IPHONE_SIMULATOR && !TARGET_OS_MAC
+#if !TARGET_IPHONE_SIMULATOR
 	#define CHEDDAR_PRODUCTION_MODE 1
 #endif
 
