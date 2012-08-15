@@ -32,7 +32,10 @@
 		B208C87A15BF66F90080705D /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85115BF66AF0080705D /* libBully.a */; };
 		B208C89815BF67C40080705D /* CDKRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */; };
 		B208C89B15BF68430080705D /* CDKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89A15BF68430080705D /* CDKDefines.m */; };
-		B244408915BE53DC00D4D4CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B244408815BE53DC00D4D4CA /* Foundation.framework */; };
+		B2215B7215DC18EB00DD59C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7015DC18EB00DD59C1 /* Cocoa.framework */; };
+		B2215B7315DC18EB00DD59C1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7115DC18EB00DD59C1 /* CoreData.framework */; };
+		B2215B7515DC18F600DD59C1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7415DC18F600DD59C1 /* Security.framework */; };
+		B2215B7715DC18FC00DD59C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7615DC18FC00DD59C1 /* SystemConfiguration.framework */; };
 		B28FD2B515BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2A415BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.m */; };
 		B28FD2B615BF6F3F00365CD6 /* SSFilterableFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2A815BF6F3F00365CD6 /* SSFilterableFetchedResultsController.m */; };
 		B28FD2B715BF6F3F00365CD6 /* SSFilteredResultsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2AA15BF6F3F00365CD6 /* SSFilteredResultsFilter.m */; };
@@ -41,7 +44,6 @@
 		B28FD2BA15BF6F3F00365CD6 /* SSManagedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B015BF6F3F00365CD6 /* SSManagedTableViewController.m */; };
 		B28FD2BB15BF6F3F00365CD6 /* SSManagedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B215BF6F3F00365CD6 /* SSManagedViewController.m */; };
 		B28FD2BC15BF6F3F00365CD6 /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B415BF6F3F00365CD6 /* SSRemoteManagedObject.m */; };
-		B2D8D59215BF7EE600A61836 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D59115BF7EE600A61836 /* Cocoa.framework */; };
 		B2D8D5A615BF7F0700A61836 /* CDKDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C89915BF68430080705D /* CDKDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2D8D5A715BF7F0700A61836 /* CDKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89A15BF68430080705D /* CDKDefines.m */; };
 		B2D8D5A815BF7F0700A61836 /* CDKRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C89615BF67C40080705D /* CDKRemoteManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,12 +99,6 @@
 		B2D8D5E615BF7F2000A61836 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
 		B2D8D5E915BF7F2900A61836 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7E615BF66AE0080705D /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2D8D5EA15BF7F2900A61836 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
-		B2D8D60215BF808200A61836 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60115BF808200A61836 /* Security.framework */; };
-		B2D8D60415BF808800A61836 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60315BF808800A61836 /* SystemConfiguration.framework */; };
-		B2D8D60615BF808E00A61836 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60515BF808E00A61836 /* libicucore.dylib */; };
-		B2D8D60815BF809300A61836 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60715BF809300A61836 /* CoreData.framework */; };
-		B2D8D60A15BF809700A61836 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8D60915BF809700A61836 /* CoreText.framework */; };
-		B2EB6AB915DB61270035AD92 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6AB815DB61270035AD92 /* CFNetwork.framework */; };
 		B2EB6BD515DB6B030035AD92 /* libBullyMacLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6BD015DB6A4B0035AD92 /* libBullyMacLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -207,8 +203,12 @@
 		B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKRemoteManagedObject.m; sourceTree = "<group>"; };
 		B208C89915BF68430080705D /* CDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKDefines.h; sourceTree = "<group>"; };
 		B208C89A15BF68430080705D /* CDKDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKDefines.m; sourceTree = "<group>"; };
+		B2215B7015DC18EB00DD59C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B2215B7115DC18EB00DD59C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		B2215B7415DC18F600DD59C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		B2215B7615DC18FC00DD59C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B2215B7815DC197400DD59C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B244408515BE53DC00D4D4CA /* libCheddarKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCheddarKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B244408815BE53DC00D4D4CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B244409B15BE540D00D4D4CA /* CheddarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheddarKit.h; sourceTree = "<group>"; };
 		B28FD2A315BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+SSDataKitAdditions.h"; sourceTree = "<group>"; };
 		B28FD2A415BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+SSDataKitAdditions.m"; sourceTree = "<group>"; };
@@ -228,13 +228,6 @@
 		B28FD2B315BF6F3F00365CD6 /* SSRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteManagedObject.h; sourceTree = "<group>"; };
 		B28FD2B415BF6F3F00365CD6 /* SSRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteManagedObject.m; sourceTree = "<group>"; };
 		B2D8D59015BF7EE600A61836 /* CheddarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheddarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2D8D59115BF7EE600A61836 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		B2D8D60115BF808200A61836 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		B2D8D60315BF808800A61836 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		B2D8D60515BF808E00A61836 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libicucore.dylib; sourceTree = DEVELOPER_DIR; };
-		B2D8D60715BF809300A61836 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		B2D8D60915BF809700A61836 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		B2EB6AB815DB61270035AD92 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B208C87A15BF66F90080705D /* libBully.a in Frameworks */,
-				B244408915BE53DC00D4D4CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,14 +243,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2215B7715DC18FC00DD59C1 /* SystemConfiguration.framework in Frameworks */,
+				B2215B7515DC18F600DD59C1 /* Security.framework in Frameworks */,
+				B2215B7215DC18EB00DD59C1 /* Cocoa.framework in Frameworks */,
+				B2215B7315DC18EB00DD59C1 /* CoreData.framework in Frameworks */,
 				B2EB6BD515DB6B030035AD92 /* libBullyMacLibrary.a in Frameworks */,
-				B2EB6AB915DB61270035AD92 /* CFNetwork.framework in Frameworks */,
-				B2D8D60A15BF809700A61836 /* CoreText.framework in Frameworks */,
-				B2D8D60815BF809300A61836 /* CoreData.framework in Frameworks */,
-				B2D8D60615BF808E00A61836 /* libicucore.dylib in Frameworks */,
-				B2D8D60415BF808800A61836 /* SystemConfiguration.framework in Frameworks */,
-				B2D8D60215BF808200A61836 /* Security.framework in Frameworks */,
-				B2D8D59215BF7EE600A61836 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,14 +381,11 @@
 		B244408715BE53DC00D4D4CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B2EB6AB815DB61270035AD92 /* CFNetwork.framework */,
-				B2D8D60915BF809700A61836 /* CoreText.framework */,
-				B2D8D60715BF809300A61836 /* CoreData.framework */,
-				B2D8D60515BF808E00A61836 /* libicucore.dylib */,
-				B2D8D60315BF808800A61836 /* SystemConfiguration.framework */,
-				B2D8D60115BF808200A61836 /* Security.framework */,
-				B244408815BE53DC00D4D4CA /* Foundation.framework */,
-				B2D8D59115BF7EE600A61836 /* Cocoa.framework */,
+				B2215B7815DC197400DD59C1 /* Foundation.framework */,
+				B2215B7615DC18FC00DD59C1 /* SystemConfiguration.framework */,
+				B2215B7415DC18F600DD59C1 /* Security.framework */,
+				B2215B7015DC18EB00DD59C1 /* Cocoa.framework */,
+				B2215B7115DC18EB00DD59C1 /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -790,7 +776,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = CheddarKit;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -820,7 +806,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = CheddarKit;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
