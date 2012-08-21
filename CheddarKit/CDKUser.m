@@ -41,9 +41,11 @@ static CDKUser *__currentUser = nil;
 		if (!userID) {
 			return nil;
 		}
-		
-		NSString *accessToken = [SSKeychain passwordForService:kCDKKeychainServiceName account:userID.description];
+
+		NSError *error = nil;
+		NSString *accessToken = [SSKeychain passwordForService:kCDKKeychainServiceName account:userID.description error:&error];
 		if (!accessToken) {
+			NSLog(@"[CheddarKit] Failed to get access token: %@", error);
 			return nil;
 		}
 
@@ -65,7 +67,12 @@ static CDKUser *__currentUser = nil;
 		__currentUser = nil;
 		[userDefaults removeObjectForKey:kCDKUserIDKey];
 	} else {
-		[SSKeychain setPassword:user.accessToken forService:kCDKKeychainServiceName account:user.remoteID.description];
+		NSError *error = nil;
+		[SSKeychain setPassword:user.accessToken forService:kCDKKeychainServiceName account:user.remoteID.description error:&error];
+		if (error) {
+			NSLog(@"[CheddarKit] Failed to save access token: %@", error);
+		}
+		
 		__currentUser = user;
 		[userDefaults setObject:user.remoteID forKey:kCDKUserIDKey];
 	}
