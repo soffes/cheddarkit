@@ -1,15 +1,15 @@
 [submodule "CheddarKit/Vendor/SSKeychain"]
 	path = CheddarKit/Vendor/SSKeychain
-	url = https://github.com/samsoffes/sskeychain.git
+	url = https://github.com/soffes/sskeychain.git
 [submodule "CheddarKit/Vendor/SSDataKit"]
 	path = CheddarKit/Vendor/SSDataKit
-	url = https://github.com/samsoffes/ssdatakit.git
+	url = https://github.com/soffes/ssdatakit.git
 [submodule "CheddarKit/Vendor/AFIncrementalStore"]
 	path = CheddarKit/Vendor/AFIncrementalStore
 	url = https://github.com/AFNetworking/AFIncrementalStore.git
 [submodule "CheddarKit/Vendor/Bully"]
 	path = CheddarKit/Vendor/Bully
-	url = https://github.com/samsoffes/bully.git
+	url = https://github.com/soffes/bully.git
 [submodule "CheddarKit/Vendor/Reachability"]
 	path = CheddarKit/Vendor/Reachability
-	url = https://github.com/samsoffes/Reachability.git
+	url = https://github.com/soffes/Reachability.git
