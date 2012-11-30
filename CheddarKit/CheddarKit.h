@@ -23,16 +23,6 @@
 #import <CheddarKit/NSString+CheddarKit.h>
 
 // Vendor
-#if TARGET_OS_IPHONE
-	#import <CheddarKit/Vendor/SSDataKit/SSDataKit.h>
-	#import <CheddarKit/Vendor/AFNetworking/AFNetworking/AFNetworking.h>
-	#import <CheddarKit/Vendor/Reachability/Reachability.h>
-#else
-	// SSDataKit
-	#import <CheddarKit/SSManagedObject.h>
-	#import <CheddarKit/SSRemoteManagedObject.h>
-	#import <CheddarKit/NSManagedObjectContext+SSDataKitAdditions.h>
-
-	#import <CheddarKit/AFNetworking.h>
-	#import <CheddarKit/Reachability.h>
-#endif
+#import <CheddarKit/Vendor/SSDataKit/SSDataKit.h>
+#import <CheddarKit/Vendor/AFNetworking/AFNetworking/AFNetworking.h>
+#import <CheddarKit/Vendor/Reachability/Reachability.h>

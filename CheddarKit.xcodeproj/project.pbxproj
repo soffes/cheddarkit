@@ -7,6 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21CF86231669036B0052625D /* CDKDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C89915BF68430080705D /* CDKDefines.h */; };
+		21CF86241669036B0052625D /* CDKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89A15BF68430080705D /* CDKDefines.m */; };
+		21CF86251669036B0052625D /* CDKRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C89615BF67C40080705D /* CDKRemoteManagedObject.h */; };
+		21CF86261669036B0052625D /* CDKRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */; };
+		21CF86271669036B0052625D /* CheddarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B244409B15BE540D00D4D4CA /* CheddarKit.h */; };
+		21CF86281669036B0052625D /* CDKHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E115BF655F0080705D /* CDKHTTPClient.h */; };
+		21CF86291669036B0052625D /* CDKHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E215BF655F0080705D /* CDKHTTPClient.m */; };
+		21CF862A1669036B0052625D /* CDKList.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E315BF655F0080705D /* CDKList.h */; };
+		21CF862B1669036B0052625D /* CDKList.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E415BF655F0080705D /* CDKList.m */; };
+		21CF862C1669036B0052625D /* CDKPushController.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E515BF655F0080705D /* CDKPushController.h */; };
+		21CF862D1669036B0052625D /* CDKPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E615BF655F0080705D /* CDKPushController.m */; };
+		21CF862E1669036B0052625D /* CDKTag.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E715BF655F0080705D /* CDKTag.h */; };
+		21CF862F1669036B0052625D /* CDKTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E815BF655F0080705D /* CDKTag.m */; };
+		21CF86301669036B0052625D /* CDKTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E915BF655F0080705D /* CDKTask.h */; };
+		21CF86311669036B0052625D /* CDKTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EA15BF655F0080705D /* CDKTask.m */; };
+		21CF86321669036B0052625D /* CDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5EB15BF655F0080705D /* CDKUser.h */; };
+		21CF86331669036B0052625D /* CDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EC15BF655F0080705D /* CDKUser.m */; };
+		21CF86341669036B0052625D /* NSDictionary+CheddarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5ED15BF655F0080705D /* NSDictionary+CheddarKit.h */; };
+		21CF86351669036B0052625D /* NSDictionary+CheddarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EE15BF655F0080705D /* NSDictionary+CheddarKit.m */; };
+		21CF86361669036B0052625D /* NSString+CheddarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5EF15BF655F0080705D /* NSString+CheddarKit.h */; };
+		21CF86371669036B0052625D /* NSString+CheddarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5F015BF655F0080705D /* NSString+CheddarKit.m */; };
+		21CF8638166903760052625D /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E3916180591001E9E09 /* AFHTTPClient.h */; };
+		21CF8639166903760052625D /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E3A16180591001E9E09 /* AFHTTPClient.m */; };
+		21CF863A166903760052625D /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E3B16180591001E9E09 /* AFHTTPRequestOperation.h */; };
+		21CF863B166903760052625D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E3C16180591001E9E09 /* AFHTTPRequestOperation.m */; };
+		21CF863C166903760052625D /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E3D16180591001E9E09 /* AFImageRequestOperation.h */; };
+		21CF863D166903760052625D /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E3E16180591001E9E09 /* AFImageRequestOperation.m */; };
+		21CF863E166903760052625D /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E3F16180591001E9E09 /* AFJSONRequestOperation.h */; };
+		21CF863F166903760052625D /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E4016180591001E9E09 /* AFJSONRequestOperation.m */; };
+		21CF8640166903760052625D /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E4116180591001E9E09 /* AFNetworkActivityIndicatorManager.h */; };
+		21CF8641166903760052625D /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E4216180591001E9E09 /* AFNetworkActivityIndicatorManager.m */; };
+		21CF8642166903760052625D /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E4316180591001E9E09 /* AFNetworking.h */; };
+		21CF8643166903760052625D /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E4416180591001E9E09 /* AFPropertyListRequestOperation.h */; };
+		21CF8644166903760052625D /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E4516180591001E9E09 /* AFPropertyListRequestOperation.m */; };
+		21CF8645166903760052625D /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E4616180591001E9E09 /* AFURLConnectionOperation.h */; };
+		21CF8646166903760052625D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E4716180591001E9E09 /* AFURLConnectionOperation.m */; };
+		21CF8647166903760052625D /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2287E4816180591001E9E09 /* AFXMLRequestOperation.h */; };
+		21CF8648166903760052625D /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E4916180591001E9E09 /* AFXMLRequestOperation.m */; };
+		21CF86491669037A0052625D /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2A315BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.h */; };
+		21CF864A1669037A0052625D /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2A415BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.m */; };
+		21CF864B1669037A0052625D /* SSDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2A615BF6F3F00365CD6 /* SSDataKit.h */; };
+		21CF86521669037A0052625D /* SSManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2AD15BF6F3F00365CD6 /* SSManagedObject.h */; };
+		21CF86531669037A0052625D /* SSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2AE15BF6F3F00365CD6 /* SSManagedObject.m */; };
+		21CF86581669037A0052625D /* SSRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2B315BF6F3F00365CD6 /* SSRemoteManagedObject.h */; };
+		21CF86591669037A0052625D /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B415BF6F3F00365CD6 /* SSRemoteManagedObject.m */; };
+		21CF865A1669037E0052625D /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7CF15BF66AE0080705D /* Reachability.h */; };
+		21CF865B1669037E0052625D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
+		21CF865C1669037E0052625D /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7E615BF66AE0080705D /* SSKeychain.h */; };
+		21CF865D1669037E0052625D /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
+		21CF8677166905710052625D /* Cheddar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21CF8673166905710052625D /* Cheddar.xcdatamodeld */; };
+		21CF867B166906E80052625D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF867A166906E80052625D /* Cocoa.framework */; };
+		21CF867D166907200052625D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF867C166907200052625D /* CoreText.framework */; };
+		21CF867F166907270052625D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF867E166907270052625D /* CoreData.framework */; };
+		21CF86811669072C0052625D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF86801669072C0052625D /* CFNetwork.framework */; };
+		21CF8683166907300052625D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF86821669072F0052625D /* Security.framework */; };
+		21CF8685166908190052625D /* Bully.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85315BF66AF0080705D /* Bully.framework */; };
+		21CF8687166908760052625D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF8686166908760052625D /* SystemConfiguration.framework */; };
 		B208C5F115BF655F0080705D /* CDKHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E215BF655F0080705D /* CDKHTTPClient.m */; };
 		B208C5F215BF655F0080705D /* CDKList.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E415BF655F0080705D /* CDKList.m */; };
 		B208C5F315BF655F0080705D /* CDKPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E615BF655F0080705D /* CDKPushController.m */; };
@@ -20,10 +77,6 @@
 		B208C87A15BF66F90080705D /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85115BF66AF0080705D /* libBully.a */; };
 		B208C89815BF67C40080705D /* CDKRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */; };
 		B208C89B15BF68430080705D /* CDKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89A15BF68430080705D /* CDKDefines.m */; };
-		B2215B7215DC18EB00DD59C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7015DC18EB00DD59C1 /* Cocoa.framework */; };
-		B2215B7315DC18EB00DD59C1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7115DC18EB00DD59C1 /* CoreData.framework */; };
-		B2215B7515DC18F600DD59C1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7415DC18F600DD59C1 /* Security.framework */; };
-		B2215B7715DC18FC00DD59C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2215B7615DC18FC00DD59C1 /* SystemConfiguration.framework */; };
 		B2287E7F16180591001E9E09 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E3A16180591001E9E09 /* AFHTTPClient.m */; };
 		B2287E8016180591001E9E09 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E3C16180591001E9E09 /* AFHTTPRequestOperation.m */; };
 		B2287E8116180591001E9E09 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2287E3E16180591001E9E09 /* AFImageRequestOperation.m */; };
@@ -41,42 +94,16 @@
 		B28FD2BA15BF6F3F00365CD6 /* SSManagedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B015BF6F3F00365CD6 /* SSManagedTableViewController.m */; };
 		B28FD2BB15BF6F3F00365CD6 /* SSManagedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B215BF6F3F00365CD6 /* SSManagedViewController.m */; };
 		B28FD2BC15BF6F3F00365CD6 /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B415BF6F3F00365CD6 /* SSRemoteManagedObject.m */; };
-		B2D8D5A615BF7F0700A61836 /* CDKDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C89915BF68430080705D /* CDKDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5A715BF7F0700A61836 /* CDKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89A15BF68430080705D /* CDKDefines.m */; };
-		B2D8D5A815BF7F0700A61836 /* CDKRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C89615BF67C40080705D /* CDKRemoteManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5A915BF7F0700A61836 /* CDKRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */; };
-		B2D8D5AA15BF7F0700A61836 /* CheddarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B244409B15BE540D00D4D4CA /* CheddarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5AB15BF7F0700A61836 /* CDKHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E115BF655F0080705D /* CDKHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5AC15BF7F0700A61836 /* CDKHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E215BF655F0080705D /* CDKHTTPClient.m */; };
-		B2D8D5AD15BF7F0700A61836 /* CDKList.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E315BF655F0080705D /* CDKList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5AE15BF7F0700A61836 /* CDKList.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E415BF655F0080705D /* CDKList.m */; };
-		B2D8D5AF15BF7F0700A61836 /* CDKPushController.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E515BF655F0080705D /* CDKPushController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5B015BF7F0700A61836 /* CDKPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E615BF655F0080705D /* CDKPushController.m */; };
-		B2D8D5B115BF7F0700A61836 /* CDKTag.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E715BF655F0080705D /* CDKTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5B215BF7F0700A61836 /* CDKTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E815BF655F0080705D /* CDKTag.m */; };
-		B2D8D5B315BF7F0700A61836 /* CDKTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5E915BF655F0080705D /* CDKTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5B415BF7F0700A61836 /* CDKTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EA15BF655F0080705D /* CDKTask.m */; };
-		B2D8D5B515BF7F0700A61836 /* CDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5EB15BF655F0080705D /* CDKUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5B615BF7F0700A61836 /* CDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EC15BF655F0080705D /* CDKUser.m */; };
-		B2D8D5B715BF7F0700A61836 /* NSDictionary+CheddarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5ED15BF655F0080705D /* NSDictionary+CheddarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5B815BF7F0700A61836 /* NSDictionary+CheddarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EE15BF655F0080705D /* NSDictionary+CheddarKit.m */; };
-		B2D8D5B915BF7F0700A61836 /* NSString+CheddarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C5EF15BF655F0080705D /* NSString+CheddarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5BA15BF7F0700A61836 /* NSString+CheddarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5F015BF655F0080705D /* NSString+CheddarKit.m */; };
-		B2D8D5BB15BF7F0F00A61836 /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2A315BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5BC15BF7F0F00A61836 /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2A415BF6F3F00365CD6 /* NSManagedObjectContext+SSDataKitAdditions.m */; };
-		B2D8D5BD15BF7F0F00A61836 /* SSDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2A615BF6F3F00365CD6 /* SSDataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5C415BF7F0F00A61836 /* SSManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2AD15BF6F3F00365CD6 /* SSManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5C515BF7F0F00A61836 /* SSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2AE15BF6F3F00365CD6 /* SSManagedObject.m */; };
-		B2D8D5CA15BF7F0F00A61836 /* SSRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2B315BF6F3F00365CD6 /* SSRemoteManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5CB15BF7F0F00A61836 /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B415BF6F3F00365CD6 /* SSRemoteManagedObject.m */; };
-		B2D8D5E515BF7F2000A61836 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7CF15BF66AE0080705D /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5E615BF7F2000A61836 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
-		B2D8D5E915BF7F2900A61836 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7E615BF66AE0080705D /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D8D5EA15BF7F2900A61836 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
-		B2EB6BD515DB6B030035AD92 /* libBullyMacLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6BD015DB6A4B0035AD92 /* libBullyMacLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		21CF8661166903940052625D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EB6BBB15DB69FC0035AD92;
+			remoteInfo = BullyMac;
+		};
 		B208C85015BF66AF0080705D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
@@ -98,20 +125,6 @@
 			remoteGlobalIDString = B2587E4A1579E740009D7B44;
 			remoteInfo = Bully;
 		};
-		B2EB6BCF15DB6A4B0035AD92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B2EB6BBC15DB69FC0035AD92;
-			remoteInfo = BullyMacLibrary;
-		};
-		B2EB6BD315DB6AFC0035AD92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B208C66D15BF66AE0080705D /* Bully.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B2EB6BBB15DB69FC0035AD92;
-			remoteInfo = BullyMacLibrary;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,6 +140,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21CF86141669035E0052625D /* libCheddarKitMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCheddarKitMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CF8674166905710052625D /* Cheddar 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Cheddar 2.xcdatamodel"; sourceTree = "<group>"; };
+		21CF8675166905710052625D /* Cheddar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cheddar.xcdatamodel; sourceTree = "<group>"; };
+		21CF8678166905AC0052625D /* CheddarKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CheddarKit-Prefix.pch"; sourceTree = "<group>"; };
+		21CF867A166906E80052625D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		21CF867C166907200052625D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		21CF867E166907270052625D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		21CF86801669072C0052625D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		21CF86821669072F0052625D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		21CF8686166908760052625D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		B208C5E115BF655F0080705D /* CDKHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKHTTPClient.h; sourceTree = "<group>"; };
 		B208C5E215BF655F0080705D /* CDKHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKHTTPClient.m; sourceTree = "<group>"; };
 		B208C5E315BF655F0080705D /* CDKList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKList.h; sourceTree = "<group>"; };
@@ -152,11 +175,6 @@
 		B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKRemoteManagedObject.m; sourceTree = "<group>"; };
 		B208C89915BF68430080705D /* CDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKDefines.h; sourceTree = "<group>"; };
 		B208C89A15BF68430080705D /* CDKDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKDefines.m; sourceTree = "<group>"; };
-		B2215B7015DC18EB00DD59C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		B2215B7115DC18EB00DD59C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		B2215B7415DC18F600DD59C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		B2215B7615DC18FC00DD59C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		B2215B7815DC197400DD59C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B2287E3916180591001E9E09 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		B2287E3A16180591001E9E09 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		B2287E3B16180591001E9E09 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -195,10 +213,23 @@
 		B28FD2B215BF6F3F00365CD6 /* SSManagedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedViewController.m; sourceTree = "<group>"; };
 		B28FD2B315BF6F3F00365CD6 /* SSRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteManagedObject.h; sourceTree = "<group>"; };
 		B28FD2B415BF6F3F00365CD6 /* SSRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteManagedObject.m; sourceTree = "<group>"; };
-		B2D8D59015BF7EE600A61836 /* CheddarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheddarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		21CF86111669035E0052625D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CF8687166908760052625D /* SystemConfiguration.framework in Frameworks */,
+				21CF8685166908190052625D /* Bully.framework in Frameworks */,
+				21CF8683166907300052625D /* Security.framework in Frameworks */,
+				21CF86811669072C0052625D /* CFNetwork.framework in Frameworks */,
+				21CF867F166907270052625D /* CoreData.framework in Frameworks */,
+				21CF867D166907200052625D /* CoreText.framework in Frameworks */,
+				21CF867B166906E80052625D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B244408215BE53DC00D4D4CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,21 +238,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2D8D58C15BF7EE600A61836 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2215B7715DC18FC00DD59C1 /* SystemConfiguration.framework in Frameworks */,
-				B2215B7515DC18F600DD59C1 /* Security.framework in Frameworks */,
-				B2215B7215DC18EB00DD59C1 /* Cocoa.framework in Frameworks */,
-				B2215B7315DC18EB00DD59C1 /* CoreData.framework in Frameworks */,
-				B2EB6BD515DB6B030035AD92 /* libBullyMacLibrary.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21CF8672166905710052625D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				21CF8678166905AC0052625D /* CheddarKit-Prefix.pch */,
+				21CF8673166905710052625D /* Cheddar.xcdatamodeld */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		21CF868B1669089D0052625D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21CF8686166908760052625D /* SystemConfiguration.framework */,
+				21CF86821669072F0052625D /* Security.framework */,
+				21CF86801669072C0052625D /* CFNetwork.framework */,
+				21CF867E166907270052625D /* CoreData.framework */,
+				21CF867C166907200052625D /* CoreText.framework */,
+				21CF867A166906E80052625D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B208C5FD15BF66AE0080705D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,7 +289,6 @@
 			children = (
 				B208C85115BF66AF0080705D /* libBully.a */,
 				B208C85315BF66AF0080705D /* Bully.framework */,
-				B2EB6BD015DB6A4B0035AD92 /* libBullyMacLibrary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,8 +349,9 @@
 			isa = PBXGroup;
 			children = (
 				B244409A15BE540D00D4D4CA /* CheddarKit */,
+				21CF8672166905710052625D /* Other Sources */,
 				B208C5FD15BF66AE0080705D /* Vendor */,
-				B244408715BE53DC00D4D4CA /* Frameworks */,
+				21CF868B1669089D0052625D /* Frameworks */,
 				B244408615BE53DC00D4D4CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -319,21 +360,9 @@
 			isa = PBXGroup;
 			children = (
 				B244408515BE53DC00D4D4CA /* libCheddarKit.a */,
-				B2D8D59015BF7EE600A61836 /* CheddarKit.framework */,
+				21CF86141669035E0052625D /* libCheddarKitMac.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B244408715BE53DC00D4D4CA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B2215B7815DC197400DD59C1 /* Foundation.framework */,
-				B2215B7615DC18FC00DD59C1 /* SystemConfiguration.framework */,
-				B2215B7415DC18F600DD59C1 /* Security.framework */,
-				B2215B7015DC18EB00DD59C1 /* Cocoa.framework */,
-				B2215B7115DC18EB00DD59C1 /* CoreData.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B244409A15BE540D00D4D4CA /* CheddarKit */ = {
@@ -391,33 +420,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B2D8D58D15BF7EE600A61836 /* Headers */ = {
+		21CF86121669035E0052625D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D8D5A615BF7F0700A61836 /* CDKDefines.h in Headers */,
-				B2D8D5A815BF7F0700A61836 /* CDKRemoteManagedObject.h in Headers */,
-				B2D8D5AA15BF7F0700A61836 /* CheddarKit.h in Headers */,
-				B2D8D5AB15BF7F0700A61836 /* CDKHTTPClient.h in Headers */,
-				B2D8D5AD15BF7F0700A61836 /* CDKList.h in Headers */,
-				B2D8D5AF15BF7F0700A61836 /* CDKPushController.h in Headers */,
-				B2D8D5B115BF7F0700A61836 /* CDKTag.h in Headers */,
-				B2D8D5B315BF7F0700A61836 /* CDKTask.h in Headers */,
-				B2D8D5B515BF7F0700A61836 /* CDKUser.h in Headers */,
-				B2D8D5B715BF7F0700A61836 /* NSDictionary+CheddarKit.h in Headers */,
-				B2D8D5B915BF7F0700A61836 /* NSString+CheddarKit.h in Headers */,
-				B2D8D5BB15BF7F0F00A61836 /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */,
-				B2D8D5BD15BF7F0F00A61836 /* SSDataKit.h in Headers */,
-				B2D8D5C415BF7F0F00A61836 /* SSManagedObject.h in Headers */,
-				B2D8D5CA15BF7F0F00A61836 /* SSRemoteManagedObject.h in Headers */,
-				B2D8D5E515BF7F2000A61836 /* Reachability.h in Headers */,
-				B2D8D5E915BF7F2900A61836 /* SSKeychain.h in Headers */,
+				21CF86231669036B0052625D /* CDKDefines.h in Headers */,
+				21CF86251669036B0052625D /* CDKRemoteManagedObject.h in Headers */,
+				21CF86271669036B0052625D /* CheddarKit.h in Headers */,
+				21CF86281669036B0052625D /* CDKHTTPClient.h in Headers */,
+				21CF862A1669036B0052625D /* CDKList.h in Headers */,
+				21CF862C1669036B0052625D /* CDKPushController.h in Headers */,
+				21CF862E1669036B0052625D /* CDKTag.h in Headers */,
+				21CF86301669036B0052625D /* CDKTask.h in Headers */,
+				21CF86321669036B0052625D /* CDKUser.h in Headers */,
+				21CF86341669036B0052625D /* NSDictionary+CheddarKit.h in Headers */,
+				21CF86361669036B0052625D /* NSString+CheddarKit.h in Headers */,
+				21CF8638166903760052625D /* AFHTTPClient.h in Headers */,
+				21CF863A166903760052625D /* AFHTTPRequestOperation.h in Headers */,
+				21CF863C166903760052625D /* AFImageRequestOperation.h in Headers */,
+				21CF863E166903760052625D /* AFJSONRequestOperation.h in Headers */,
+				21CF8640166903760052625D /* AFNetworkActivityIndicatorManager.h in Headers */,
+				21CF8642166903760052625D /* AFNetworking.h in Headers */,
+				21CF8643166903760052625D /* AFPropertyListRequestOperation.h in Headers */,
+				21CF8645166903760052625D /* AFURLConnectionOperation.h in Headers */,
+				21CF8647166903760052625D /* AFXMLRequestOperation.h in Headers */,
+				21CF86491669037A0052625D /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */,
+				21CF864B1669037A0052625D /* SSDataKit.h in Headers */,
+				21CF86521669037A0052625D /* SSManagedObject.h in Headers */,
+				21CF86581669037A0052625D /* SSRemoteManagedObject.h in Headers */,
+				21CF865A1669037E0052625D /* Reachability.h in Headers */,
+				21CF865C1669037E0052625D /* SSKeychain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		21CF86131669035E0052625D /* CheddarKitMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CF86201669035E0052625D /* Build configuration list for PBXNativeTarget "CheddarKitMac" */;
+			buildPhases = (
+				21CF86101669035E0052625D /* Sources */,
+				21CF86111669035E0052625D /* Frameworks */,
+				21CF86121669035E0052625D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21CF8662166903940052625D /* PBXTargetDependency */,
+			);
+			name = CheddarKitMac;
+			productName = CheddarKitMac;
+			productReference = 21CF86141669035E0052625D /* libCheddarKitMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		B244408415BE53DC00D4D4CA /* CheddarKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B244409315BE53DC00D4D4CA /* Build configuration list for PBXNativeTarget "CheddarKit" */;
@@ -435,25 +491,6 @@
 			productName = CheddarKit;
 			productReference = B244408515BE53DC00D4D4CA /* libCheddarKit.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		B2D8D58F15BF7EE600A61836 /* CheddarKitMac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2D8D5A215BF7EE600A61836 /* Build configuration list for PBXNativeTarget "CheddarKitMac" */;
-			buildPhases = (
-				B2D8D58B15BF7EE600A61836 /* Sources */,
-				B2D8D58C15BF7EE600A61836 /* Frameworks */,
-				B2D8D58D15BF7EE600A61836 /* Headers */,
-				B2D8D58E15BF7EE600A61836 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2EB6BD415DB6AFC0035AD92 /* PBXTargetDependency */,
-			);
-			name = CheddarKitMac;
-			productName = CheddarKitMac;
-			productReference = B2D8D59015BF7EE600A61836 /* CheddarKit.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -484,7 +521,7 @@
 			projectRoot = "";
 			targets = (
 				B244408415BE53DC00D4D4CA /* CheddarKit */,
-				B2D8D58F15BF7EE600A61836 /* CheddarKitMac */,
+				21CF86131669035E0052625D /* CheddarKitMac */,
 			);
 		};
 /* End PBXProject section */
@@ -504,26 +541,39 @@
 			remoteRef = B208C85215BF66AF0080705D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B2EB6BD015DB6A4B0035AD92 /* libBullyMacLibrary.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBullyMacLibrary.a;
-			remoteRef = B2EB6BCF15DB6A4B0035AD92 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
-/* Begin PBXResourcesBuildPhase section */
-		B2D8D58E15BF7EE600A61836 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		21CF86101669035E0052625D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CF86241669036B0052625D /* CDKDefines.m in Sources */,
+				21CF86261669036B0052625D /* CDKRemoteManagedObject.m in Sources */,
+				21CF86291669036B0052625D /* CDKHTTPClient.m in Sources */,
+				21CF862B1669036B0052625D /* CDKList.m in Sources */,
+				21CF862D1669036B0052625D /* CDKPushController.m in Sources */,
+				21CF862F1669036B0052625D /* CDKTag.m in Sources */,
+				21CF86311669036B0052625D /* CDKTask.m in Sources */,
+				21CF86331669036B0052625D /* CDKUser.m in Sources */,
+				21CF86351669036B0052625D /* NSDictionary+CheddarKit.m in Sources */,
+				21CF86371669036B0052625D /* NSString+CheddarKit.m in Sources */,
+				21CF8639166903760052625D /* AFHTTPClient.m in Sources */,
+				21CF863B166903760052625D /* AFHTTPRequestOperation.m in Sources */,
+				21CF863D166903760052625D /* AFImageRequestOperation.m in Sources */,
+				21CF863F166903760052625D /* AFJSONRequestOperation.m in Sources */,
+				21CF8641166903760052625D /* AFNetworkActivityIndicatorManager.m in Sources */,
+				21CF8644166903760052625D /* AFPropertyListRequestOperation.m in Sources */,
+				21CF8646166903760052625D /* AFURLConnectionOperation.m in Sources */,
+				21CF8648166903760052625D /* AFXMLRequestOperation.m in Sources */,
+				21CF864A1669037A0052625D /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */,
+				21CF86531669037A0052625D /* SSManagedObject.m in Sources */,
+				21CF86591669037A0052625D /* SSRemoteManagedObject.m in Sources */,
+				21CF865B1669037E0052625D /* Reachability.m in Sources */,
+				21CF865D1669037E0052625D /* SSKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		B244408115BE53DC00D4D4CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,47 +607,82 @@
 				B2287E8516180591001E9E09 /* AFURLConnectionOperation.m in Sources */,
 				B2287E8616180591001E9E09 /* AFXMLRequestOperation.m in Sources */,
 				B2287E8716180591001E9E09 /* UIImageView+AFNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2D8D58B15BF7EE600A61836 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2D8D5A715BF7F0700A61836 /* CDKDefines.m in Sources */,
-				B2D8D5A915BF7F0700A61836 /* CDKRemoteManagedObject.m in Sources */,
-				B2D8D5AC15BF7F0700A61836 /* CDKHTTPClient.m in Sources */,
-				B2D8D5AE15BF7F0700A61836 /* CDKList.m in Sources */,
-				B2D8D5B015BF7F0700A61836 /* CDKPushController.m in Sources */,
-				B2D8D5B215BF7F0700A61836 /* CDKTag.m in Sources */,
-				B2D8D5B415BF7F0700A61836 /* CDKTask.m in Sources */,
-				B2D8D5B615BF7F0700A61836 /* CDKUser.m in Sources */,
-				B2D8D5B815BF7F0700A61836 /* NSDictionary+CheddarKit.m in Sources */,
-				B2D8D5BA15BF7F0700A61836 /* NSString+CheddarKit.m in Sources */,
-				B2D8D5BC15BF7F0F00A61836 /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */,
-				B2D8D5C515BF7F0F00A61836 /* SSManagedObject.m in Sources */,
-				B2D8D5CB15BF7F0F00A61836 /* SSRemoteManagedObject.m in Sources */,
-				B2D8D5E615BF7F2000A61836 /* Reachability.m in Sources */,
-				B2D8D5EA15BF7F2900A61836 /* SSKeychain.m in Sources */,
+				21CF8677166905710052625D /* Cheddar.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		21CF8662166903940052625D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BullyMac;
+			targetProxy = 21CF8661166903940052625D /* PBXContainerItemProxy */;
+		};
 		B208C87915BF66F10080705D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bully;
 			targetProxy = B208C87815BF66F10080705D /* PBXContainerItemProxy */;
 		};
-		B2EB6BD415DB6AFC0035AD92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BullyMacLibrary;
-			targetProxy = B2EB6BD315DB6AFC0035AD92 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		21CF86211669035E0052625D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_EMPTY_BODY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/CheddarKit-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/CheddarKit/Vendor/Bully\"",
+					"\"$(SRCROOT)/CheddarKit/Vendor/SSDataKit\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		21CF86221669035E0052625D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_EMPTY_BODY = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/CheddarKit-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/CheddarKit/Vendor/Bully\"",
+					"\"$(SRCROOT)/CheddarKit/Vendor/SSDataKit\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B244409115BE53DC00D4D4CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -619,6 +704,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -637,6 +723,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -672,69 +759,17 @@
 			};
 			name = Release;
 		};
-		B2D8D5A315BF7EE600A61836 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CheddarKit/Vendor/Bully\"";
-				INFOPLIST_FILE = "Other Sources/CheddarKitMac-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
-				PRODUCT_NAME = CheddarKit;
-				SDKROOT = macosx10.7;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		B2D8D5A415BF7EE600A61836 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CheddarKit/Vendor/Bully\"";
-				INFOPLIST_FILE = "Other Sources/CheddarKitMac-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
-				PRODUCT_NAME = CheddarKit;
-				SDKROOT = macosx10.7;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		21CF86201669035E0052625D /* Build configuration list for PBXNativeTarget "CheddarKitMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CF86211669035E0052625D /* Debug */,
+				21CF86221669035E0052625D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B244407F15BE53DC00D4D4CA /* Build configuration list for PBXProject "CheddarKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -753,16 +788,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2D8D5A215BF7EE600A61836 /* Build configuration list for PBXNativeTarget "CheddarKitMac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2D8D5A315BF7EE600A61836 /* Debug */,
-				B2D8D5A415BF7EE600A61836 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21CF8673166905710052625D /* Cheddar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21CF8674166905710052625D /* Cheddar 2.xcdatamodel */,
+				21CF8675166905710052625D /* Cheddar.xcdatamodel */,
+			);
+			currentVersion = 21CF8674166905710052625D /* Cheddar 2.xcdatamodel */;
+			path = Cheddar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B244407C15BE53DC00D4D4CA /* Project object */;
 }

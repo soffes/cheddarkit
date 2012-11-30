@@ -6,13 +6,7 @@
 //  Copyright (c) 2012 Nothing Magical. All rights reserved.
 //
 
-#if TARGET_OS_IPHONE
-	#import "SSDataKit.h"
-#else
-	#import <CheddarKit/SSManagedObject.h>
-	#import <CheddarKit/SSRemoteManagedObject.h>
-	#import <CheddarKit/NSManagedObjectContext+SSDataKitAdditions.h>
-#endif
+#import "SSDataKit.h"
 
 @class AFJSONRequestOperation;
 
