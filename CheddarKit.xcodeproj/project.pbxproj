@@ -62,7 +62,7 @@
 		21CF867F166907270052625D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF867E166907270052625D /* CoreData.framework */; };
 		21CF86811669072C0052625D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF86801669072C0052625D /* CFNetwork.framework */; };
 		21CF8683166907300052625D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF86821669072F0052625D /* Security.framework */; };
-		21CF8685166908190052625D /* Bully.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85315BF66AF0080705D /* Bully.framework */; };
+		21CF8685166908190052625D /* libBullyMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85315BF66AF0080705D /* libBullyMac.a */; };
 		21CF8687166908760052625D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF8686166908760052625D /* SystemConfiguration.framework */; };
 		B208C5F115BF655F0080705D /* CDKHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E215BF655F0080705D /* CDKHTTPClient.m */; };
 		B208C5F215BF655F0080705D /* CDKList.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5E415BF655F0080705D /* CDKList.m */; };
@@ -221,7 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21CF8687166908760052625D /* SystemConfiguration.framework in Frameworks */,
-				21CF8685166908190052625D /* Bully.framework in Frameworks */,
+				21CF8685166908190052625D /* libBullyMac.a in Frameworks */,
 				21CF8683166907300052625D /* Security.framework in Frameworks */,
 				21CF86811669072C0052625D /* CFNetwork.framework in Frameworks */,
 				21CF867F166907270052625D /* CoreData.framework in Frameworks */,
@@ -288,7 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				B208C85115BF66AF0080705D /* libBully.a */,
-				B208C85315BF66AF0080705D /* Bully.framework */,
+				B208C85315BF66AF0080705D /* libBullyMac.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -534,10 +534,10 @@
 			remoteRef = B208C85015BF66AF0080705D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B208C85315BF66AF0080705D /* Bully.framework */ = {
+		B208C85315BF66AF0080705D /* libBullyMac.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Bully.framework;
+			fileType = archive.ar;
+			path = libBullyMac.a;
 			remoteRef = B208C85215BF66AF0080705D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -769,6 +769,7 @@
 				21CF86221669035E0052625D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B244407F15BE53DC00D4D4CA /* Build configuration list for PBXProject "CheddarKit" */ = {
 			isa = XCConfigurationList;
