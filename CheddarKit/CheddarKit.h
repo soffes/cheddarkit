@@ -25,4 +25,3 @@
 // Vendor
 #import <CheddarKit/Vendor/SSDataKit/SSDataKit.h>
 #import <CheddarKit/Vendor/AFNetworking/AFNetworking/AFNetworking.h>
-#import <CheddarKit/Vendor/Reachability/Reachability.h>

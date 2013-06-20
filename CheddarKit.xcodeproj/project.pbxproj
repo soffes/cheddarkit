@@ -52,8 +52,6 @@
 		21CF86531669037A0052625D /* SSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2AE15BF6F3F00365CD6 /* SSManagedObject.m */; };
 		21CF86581669037A0052625D /* SSRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FD2B315BF6F3F00365CD6 /* SSRemoteManagedObject.h */; };
 		21CF86591669037A0052625D /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2B415BF6F3F00365CD6 /* SSRemoteManagedObject.m */; };
-		21CF865A1669037E0052625D /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7CF15BF66AE0080705D /* Reachability.h */; };
-		21CF865B1669037E0052625D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
 		21CF865C1669037E0052625D /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = B208C7E615BF66AE0080705D /* SSKeychain.h */; };
 		21CF865D1669037E0052625D /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
 		21CF8677166905710052625D /* Cheddar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21CF8673166905710052625D /* Cheddar.xcdatamodeld */; };
@@ -72,7 +70,6 @@
 		B208C5F615BF655F0080705D /* CDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EC15BF655F0080705D /* CDKUser.m */; };
 		B208C5F715BF655F0080705D /* NSDictionary+CheddarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5EE15BF655F0080705D /* NSDictionary+CheddarKit.m */; };
 		B208C5F815BF655F0080705D /* NSString+CheddarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C5F015BF655F0080705D /* NSString+CheddarKit.m */; };
-		B208C84315BF66AF0080705D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7D015BF66AE0080705D /* Reachability.m */; };
 		B208C84615BF66AF0080705D /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C7E715BF66AE0080705D /* SSKeychain.m */; };
 		B208C87A15BF66F90080705D /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C85115BF66AF0080705D /* libBully.a */; };
 		B208C89815BF67C40080705D /* CDKRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B208C89715BF67C40080705D /* CDKRemoteManagedObject.m */; };
@@ -174,8 +171,6 @@
 		B208C5EF15BF655F0080705D /* NSString+CheddarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CheddarKit.h"; sourceTree = "<group>"; };
 		B208C5F015BF655F0080705D /* NSString+CheddarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CheddarKit.m"; sourceTree = "<group>"; };
 		B208C66D15BF66AE0080705D /* Bully.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Bully.xcodeproj; sourceTree = "<group>"; };
-		B208C7CF15BF66AE0080705D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		B208C7D015BF66AE0080705D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		B208C7E615BF66AE0080705D /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
 		B208C7E715BF66AE0080705D /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
 		B208C89615BF67C40080705D /* CDKRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKRemoteManagedObject.h; sourceTree = "<group>"; };
@@ -276,7 +271,6 @@
 				B2287E3716180591001E9E09 /* AFNetworking */,
 				B28FD2A215BF6F3F00365CD6 /* SSDataKit */,
 				B208C66115BF66AE0080705D /* Bully */,
-				B208C7AD15BF66AE0080705D /* Reachability */,
 				B208C7E015BF66AE0080705D /* SSKeychain */,
 			);
 			name = Vendor;
@@ -299,15 +293,6 @@
 				21C8A7B016A7735F00A6F1BC /* libBullyMacLibrary.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B208C7AD15BF66AE0080705D /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				B208C7CF15BF66AE0080705D /* Reachability.h */,
-				B208C7D015BF66AE0080705D /* Reachability.m */,
-			);
-			path = Reachability;
 			sourceTree = "<group>";
 		};
 		B208C7E015BF66AE0080705D /* SSKeychain */ = {
@@ -456,7 +441,6 @@
 				21CF864B1669037A0052625D /* SSDataKit.h in Headers */,
 				21CF86521669037A0052625D /* SSManagedObject.h in Headers */,
 				21CF86581669037A0052625D /* SSRemoteManagedObject.h in Headers */,
-				21CF865A1669037E0052625D /* Reachability.h in Headers */,
 				21CF865C1669037E0052625D /* SSKeychain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,7 +568,6 @@
 				21CF864A1669037A0052625D /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */,
 				21CF86531669037A0052625D /* SSManagedObject.m in Sources */,
 				21CF86591669037A0052625D /* SSRemoteManagedObject.m in Sources */,
-				21CF865B1669037E0052625D /* Reachability.m in Sources */,
 				21CF865D1669037E0052625D /* SSKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,7 +584,6 @@
 				B208C5F615BF655F0080705D /* CDKUser.m in Sources */,
 				B208C5F715BF655F0080705D /* NSDictionary+CheddarKit.m in Sources */,
 				B208C5F815BF655F0080705D /* NSString+CheddarKit.m in Sources */,
-				B208C84315BF66AF0080705D /* Reachability.m in Sources */,
 				B208C84615BF66AF0080705D /* SSKeychain.m in Sources */,
 				B208C89815BF67C40080705D /* CDKRemoteManagedObject.m in Sources */,
 				B208C89B15BF68430080705D /* CDKDefines.m in Sources */,
@@ -749,7 +731,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/CheddarKit.dst;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/CheddarKit/Vendor/Bully\"",
+					"\"$(SRCROOT)/CheddarKit/Vendor/Bully\"/**",
 					"\"$(SRCROOT)/CheddarKit/Vendor/SSDataKit\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -764,7 +746,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/CheddarKit.dst;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/CheddarKit/Vendor/Bully\"",
+					"\"$(SRCROOT)/CheddarKit/Vendor/Bully\"/**",
 					"\"$(SRCROOT)/CheddarKit/Vendor/SSDataKit\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;

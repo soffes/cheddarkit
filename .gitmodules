@@ -7,9 +7,6 @@
 [submodule "CheddarKit/Vendor/Bully"]
 	path = CheddarKit/Vendor/Bully
 	url = https://github.com/soffes/bully.git
-[submodule "CheddarKit/Vendor/Reachability"]
-	path = CheddarKit/Vendor/Reachability
-	url = https://github.com/tonymillion/Reachability.git
 [submodule "CheddarKit/Vendor/AFNetworking"]
 	path = CheddarKit/Vendor/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
