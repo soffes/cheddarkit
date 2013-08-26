@@ -34,4 +34,4 @@ NSString *const kCDKKeychainServiceName = @"Cheddar";
 
 NSString *const kCDKListDidUpdateNotificationName = @"CDKListDidUpdateNotification";
 NSString *const kCDKPlusDidChangeNotificationName = @"CDKPlusDidChangeNotification";
-NSString *const kCDKUserUpdatedNotificationName = @"CDKUserUpdatedNotificationName";
+NSString *const kCDKUserUpdatedNotificationName = @"CDKUserUpdatedNotification";
